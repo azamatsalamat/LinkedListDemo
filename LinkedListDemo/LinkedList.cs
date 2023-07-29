@@ -313,6 +313,8 @@ namespace LinkedListDemo
             {
                 this.Remove(First);
             }
+
+            Count = 0;
         }
 
         public IEnumerator<T> GetEnumerator()
